@@ -44,7 +44,15 @@ Shared window properties:
 * resizable = Optional. Popup resizable. "yes" or "no". Default "yes".
 * scrollbars = Optional. Popup scrollbars. "yes" or "no". Default "yes".
 
-A sample of share.js usage can be:
+The most simple usage for share.js is:
+
+```javascript
+window.share();
+```
+
+The above share the current page URL with Facebook.
+
+Another sample of share.js usage can be:
 
 ```javascript
 window.share({url: 'https://github.com/dec/share'});
