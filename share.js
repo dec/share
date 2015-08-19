@@ -180,10 +180,10 @@
     },
 
     getWindowOptions = function(config) {
-      return 'width=' + config.width +
-             'height=' + config.height +
-             'toolbar=' + config.toolbar +
-             'resizable=' + config.resizable +
+      return 'width=' + config.width + ', ' +
+             'height=' + config.height + ', ' +
+             'toolbar=' + config.toolbar + ', ' +
+             'resizable=' + config.resizable + ', ' +
              'scrollbars=' + config.scrollbars;
     },
 
