@@ -17,7 +17,7 @@
       config.hashtags = config.hashtags || '';
       config.url = config.url || window.location.href;
       config.provider = config.provider || 'facebook';
-      config.text = config.title || window.document.title;
+      config.text = config.text || window.document.title;
 
       config.width = config.width || 500;
       config.height = config.height || 500;
