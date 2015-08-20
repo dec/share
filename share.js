@@ -179,6 +179,15 @@
       return url;
     },
 
+    getMeneameUrl = function(config) {
+      var
+        url = 'http://www.meneame.net/submit.php?';
+
+      url += 'url=' + encode(config.url, false);
+
+      return url;
+    },
+
     getWindowOptions = function(config) {
       return 'width=' + config.width + ', ' +
              'height=' + config.height + ', ' +
@@ -193,6 +202,7 @@
       {id: 'buffer', url: getBufferUrl},
       {id: 'reddit', url: getRedditUrl},
       {id: 'tumblr', url: getTumblrUrl},
+      {id: 'meneame', url: getMeneameUrl},
       {id: 'twitter', url: getTwitterUrl},
       {id: 'linkedin', url: getLinkedinUrl},
       {id: 'facebook', url: getFacebookUrl},

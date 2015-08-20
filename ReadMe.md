@@ -1,9 +1,7 @@
 share.js
 ---
 
-This is just a simple piece of Javascript code which allow us to share an URL using one or more of the supported social web sites.
-
-The code is inspired and also based in the angular-socialshare project (https://github.com/720kb/angular-socialshare).
+This is just a simple piece of Javascript code which allow us to share an URL using one or more of the supported social web sites. The code is inspired and also based in the angular-socialshare project (https://github.com/720kb/angular-socialshare). The angular-socialshare project are fine, but I need for my project a simple Javascript function to be called.
 
 Basically share.js expose a function to the window object which we can call in order to simply share certain URL by opening a popup window with the right social web site request.
 
@@ -15,6 +13,7 @@ Currently the below social web sites are supported:
 * Reddit
 * Tumblr
 * Twitter
+* Meneame
 * Linkedin
 * Facebook
 * Google+
